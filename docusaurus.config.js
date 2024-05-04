@@ -41,13 +41,6 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,7 +61,7 @@ const config = {
         },
         items: [
           {
-            to: '/docs/intro', label: 'Docs', position: 'left'
+            to: '/docs/welcome', label: 'Docs', position: 'left'
           },
           {
             href: 'https://github.com/LieOnLion/Quad',
@@ -125,6 +118,9 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} LieOn Studio, Quad.`,
+      },
+      colorMode:{
+        defaultMode: 'dark',
       },
       prism: {
         theme: prismThemes.github,
