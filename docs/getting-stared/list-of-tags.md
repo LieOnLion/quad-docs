@@ -8,7 +8,7 @@ sidebar_position: 2
 
 See every tag Quad adds and what path they use.
 
-***
+![](https://raw.githubusercontent.com/LieOnLion/LieOnLion/main/images/strip/lol.png)
 
 ### Block Tags
 
