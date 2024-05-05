@@ -87,7 +87,7 @@ const config = {
               },
               {
                 label: 'Quad Extra',
-                to: '/category/quad-extra',
+                to: '/quad-extra',
               },
             ],
           },
