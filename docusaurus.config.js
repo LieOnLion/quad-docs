@@ -17,6 +17,7 @@ const config = {
   organizationName: 'LieOnLion', 
   projectName: 'quad-docs', 
   deploymentBranch: 'gh-pages',
+  
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -35,12 +36,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/LieOnLion/quad-docs/tree/main/',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -61,9 +61,6 @@ const config = {
         },
         items: [
           {
-            to: '/docs/welcome', label: 'Docs', position: 'left'
-          },
-          {
             href: 'https://github.com/LieOnLion/Quad',
             label: 'GitHub',
             position: 'right',
@@ -74,11 +71,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Documents',
-                to: '/docs/intro',
+                label: 'Welcome',
+                to: '/',
+              },
+              {
+                label: 'Getting Started',
+                to: '/category/getting-started',
+              },
+              {
+                label: 'Tags Extended',
+                to: '/category/tags-extended',
+              },
+              {
+                label: 'Quad Extra',
+                to: '/category/quad-extra',
               },
             ],
           },

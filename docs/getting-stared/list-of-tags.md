@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Every tag
 
-See ever tag Quad adds and what path they use.
+See every tag Quad adds and what path they use.
 
 ***
 
@@ -34,9 +34,9 @@ located in `data/quad/tags/items` (.json files)
 - `snow/acts_solid` items won't sink in powdered snow
 - `snow/boots` items when worn on feet will prevent wearer from sinking in powdered snow
 #
-- `protects_from/burns` items will protects the player from burning on blocks like Magma Blocks
+- `protects_from/burns` items will protect the player from burning on blocks like Magma Blocks
 - `iron_golem_heal` items will heal Iron Golems when right clicked
-- `ender_mask` items will prevent Enderman getting hostile when looked at
+- `ender_mask` items will prevent Endermen getting hostile when looked at
 - `piglin_armour` items will prevent Piglins getting hostile
 - `fire_lighter` items will ignite TNT, Campfires, Candles and Creepers when right clicked
 - `respawn_anchor_charger` items will charge up Respawn Anchors
@@ -62,9 +62,9 @@ located in `data/quad/tags/items` (.json files)
 
 located in `data/quad/tags/enchantment` (.json files)
 
-- `pacifier/enderman` enchanted items keeps enderman from getting aggressive when looked at
-- `pacifier/piglin` enchanted items keeps piglins from getting aggressive when preventable
-- `protects_from/burns` enchanted items protects the player from burning on blocks like Magma or Campfire Blocks 
+- `pacifier/enderman` enchanted items will prevent Endermen from getting aggressive when looked at
+- `pacifier/piglin` enchanted items will prevent Piglins from getting aggressive when preventable
+- `protects_from/burns` enchanted items will protect the player from burning on blocks like Magma or Campfire Blocks
 (or blocks in `when_stepped_on/burns`)
 - `snow/boots` enchanted items lets the player walk on powdered snow when worn
 - `fire_lighter` enchanted items will ignite TNT, Campfires, Candles and Creepers when right clicked
