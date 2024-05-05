@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ![](https://raw.githubusercontent.com/LieOnLion/LieOnLion/main/images/strip/lol.png)
 
-Quad Extra will be an extra mod that will add popular mod items to Quads tags. Quad Extra development will not be started for awhile yet.
+Quad Extra will be an extra mod that will add popular Mod's items to Quad's tags. Quad Extra development will not be started for awhile yet. Any mods you want to see on this list? Join my discord server and tell me
 
 ## Planned mod support
 
