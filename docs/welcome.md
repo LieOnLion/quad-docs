@@ -13,10 +13,18 @@ Quad is a mod that adds functional tags for items, blocks and enchantments to Mi
 
 These tags range from what blocks make cats want to sit on, to what enchantments protect you from burning on Magma Blocks, to even adding Ender Masks.
 
+Now coming to Quad is custom Datapack API's with Data Driven Systems. For now only 2 exist: 
+- [#Block Replacements](/data-systems/block-replacement) - lets you replace any block in a specified structure with another block
+- [#Point(s) of Interest](/data-systems/point-of-interest) - Point(s) of Interest are (mostly) used for Villager Trader Type blocks
+
 ![](https://raw.githubusercontent.com/LieOnLion/LieOnLion/main/images/strip/lol.png)
 
 ## How to use Quad
 
-Learn how to use Quad to its fullest with [#Getting Started](/category/getting-started) and see all the tags Quad adds here, [#List of Tags](/getting-stared/list-of-tags).
+### Tags
 
-For a more in-depth look at what each tag does and what default items Quad adds to them, a list can be found here at [#Tags Extended](/category/tags-extended).
+Tags are the main feature(s) of Quad, [#Tags](/category/tags) will have everything you need.
+
+### Data Systems
+
+A tutorial for the new [#Data Systems](/category/data-systems) is still yet to be written.

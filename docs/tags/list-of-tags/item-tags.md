@@ -1,29 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# List of Tags
+# Item Tags
 
-## Every tag
+Every Item Tag Quad adds, with a basic summary
 
-See every tag Quad adds and what path they use.
+***
 
-![](https://raw.githubusercontent.com/LieOnLion/LieOnLion/main/images/strip/lol.png)
+the `*` can be replaced with any name you wish, with the standard format looking `something_like_this`
 
-### Block Tags
-
-located in `data/quad/tags/blocks` (.json files)
-
-- `cats_on_blocks/sit` blocks will cause cats to want to sit on them
-- `cats_on_blocks/lie` blocks will cause cats to want to lay down on them
-# 
-- `when_stepped_on/burns` burns the player like Magma Blocks
-- `when_stepped_on/slows` slows the player like Soul Sand
-- `when_stepped_on/sticks` prevents the player from jumping as high like Honey Blocks
-
-### Item Tags
-
-located in `data/quad/tags/items` (.json files)
+located in `data/*/tags/items` 1.20.6 and below and `data/*/tags/item` for 1.21+ (.json files)
 
 - `fuel/lava` items will burn as fuel for 20,000 ticks (1,000 seconds)
 - `fuel/coal_block` items will burn as fuel for 16,000 ticks (800 seconds)
@@ -58,17 +45,3 @@ located in `data/quad/tags/items` (.json files)
 - `respawn_anchor_charger` items will charge up Respawn Anchors
 - `never_despawn` items won't ever despawn
 - `no_gravity` items will have no gravity
-
-### Enchantment Tags
-
-located in `data/quad/tags/enchantment` (.json files)
-
-- `protects_from/burns` enchanted items will protect the player from burning on blocks like Magma or Campfire Blocks
-(or blocks in `when_stepped_on/burns`)
-#
-- `pacifier/enderman` enchanted items will prevent Endermen from getting aggressive when looked at
-- `pacifier/piglin` enchanted items will prevent Piglins from getting aggressive when preventable
-#
-- `snow/boots` enchanted items lets the player walk on powdered snow when worn
-#
-- `fire_lighter` enchanted items will ignite TNT, Campfires, Candles and Creepers when right clicked
