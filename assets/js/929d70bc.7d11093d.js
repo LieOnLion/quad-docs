@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquad_docs=self.webpackChunkquad_docs||[]).push([[973],{8148:a=>{a.exports=JSON.parse('{"title":"Tags","slug":"/category/tags","permalink":"/quad-docs/category/tags","navigation":{"previous":{"title":"Welcome","permalink":"/quad-docs/"},"next":{"title":"Editing Tags","permalink":"/quad-docs/tags/edit-tags"}}}')}}]);
